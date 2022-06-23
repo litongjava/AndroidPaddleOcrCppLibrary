@@ -1,0 +1,325 @@
+
+{
+	"buildFiles" : 
+	[
+		"D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"D:\\Android\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"IlmImf-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "IlmImf",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/3rdparty/libs/arm64-v8a/libIlmImf.a",
+			"toolchain" : "1172920601"
+		},
+		"ittnotify-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "ittnotify",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/3rdparty/libs/arm64-v8a/libittnotify.a",
+			"toolchain" : "1172920601"
+		},
+		"libcpufeatures-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libcpufeatures",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/3rdparty/libs/arm64-v8a/libcpufeatures.a",
+			"toolchain" : "1172920601"
+		},
+		"libjasper-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libjasper",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/3rdparty/libs/arm64-v8a/liblibjasper.a",
+			"toolchain" : "1172920601"
+		},
+		"libjpeg-turbo-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libjpeg-turbo",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/3rdparty/libs/arm64-v8a/liblibjpeg-turbo.a",
+			"toolchain" : "1172920601"
+		},
+		"libpng-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libpng",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/3rdparty/libs/arm64-v8a/liblibpng.a",
+			"toolchain" : "1172920601"
+		},
+		"libprotobuf-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libprotobuf",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/3rdparty/libs/arm64-v8a/liblibprotobuf.a",
+			"toolchain" : "1172920601"
+		},
+		"libtiff-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libtiff",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/3rdparty/libs/arm64-v8a/liblibtiff.a",
+			"toolchain" : "1172920601"
+		},
+		"libwebp-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libwebp",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/3rdparty/libs/arm64-v8a/liblibwebp.a",
+			"toolchain" : "1172920601"
+		},
+		"litongjava-android-paddle-ocr-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "litongjava-android-paddle-ocr",
+			"buildCommand" : "D:\\Android\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target litongjava-android-paddle-ocr",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dlitongjava_android_paddle_ocr_EXPORTS -ID:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\src\\main\\cpp\\..\\..\\..\\PaddleLite\\cxx\\include -isystem D:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\OpenCV\\sdk\\native\\jni\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -frtti -fexceptions -Wno-format -ffast-math -Ofast -Os -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/src/main/cpp/litongjava-android-paddle-ocr.cpp",
+					"workingDirectory" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dlitongjava_android_paddle_ocr_EXPORTS -ID:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\src\\main\\cpp\\..\\..\\..\\PaddleLite\\cxx\\include -isystem D:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\OpenCV\\sdk\\native\\jni\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -frtti -fexceptions -Wno-format -ffast-math -Ofast -Os -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dlitongjava_android_paddle_ocr_EXPORTS -ID:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\src\\main\\cpp\\..\\..\\..\\PaddleLite\\cxx\\include -isystem D:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\OpenCV\\sdk\\native\\jni\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -frtti -fexceptions -Wno-format -ffast-math -Ofast -Os -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/src/main/cpp/ocr_clipper.cpp",
+					"workingDirectory" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dlitongjava_android_paddle_ocr_EXPORTS -ID:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\src\\main\\cpp\\..\\..\\..\\PaddleLite\\cxx\\include -isystem D:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\OpenCV\\sdk\\native\\jni\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -frtti -fexceptions -Wno-format -ffast-math -Ofast -Os -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/src/main/cpp/ocr_cls_process.cpp",
+					"workingDirectory" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dlitongjava_android_paddle_ocr_EXPORTS -ID:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\src\\main\\cpp\\..\\..\\..\\PaddleLite\\cxx\\include -isystem D:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\OpenCV\\sdk\\native\\jni\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -frtti -fexceptions -Wno-format -ffast-math -Ofast -Os -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/src/main/cpp/ocr_crnn_process.cpp",
+					"workingDirectory" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dlitongjava_android_paddle_ocr_EXPORTS -ID:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\src\\main\\cpp\\..\\..\\..\\PaddleLite\\cxx\\include -isystem D:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\OpenCV\\sdk\\native\\jni\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -frtti -fexceptions -Wno-format -ffast-math -Ofast -Os -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/src/main/cpp/ocr_db_post_process.cpp",
+					"workingDirectory" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dlitongjava_android_paddle_ocr_EXPORTS -ID:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\src\\main\\cpp\\..\\..\\..\\PaddleLite\\cxx\\include -isystem D:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\OpenCV\\sdk\\native\\jni\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -frtti -fexceptions -Wno-format -ffast-math -Ofast -Os -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/src/main/cpp/ocr_ppredictor.cpp",
+					"workingDirectory" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dlitongjava_android_paddle_ocr_EXPORTS -ID:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\src\\main\\cpp\\..\\..\\..\\PaddleLite\\cxx\\include -isystem D:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\OpenCV\\sdk\\native\\jni\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -frtti -fexceptions -Wno-format -ffast-math -Ofast -Os -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/src/main/cpp/ppredictor.cpp",
+					"workingDirectory" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dlitongjava_android_paddle_ocr_EXPORTS -ID:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\src\\main\\cpp\\..\\..\\..\\PaddleLite\\cxx\\include -isystem D:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\OpenCV\\sdk\\native\\jni\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -frtti -fexceptions -Wno-format -ffast-math -Ofast -Os -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/src/main/cpp/predictor_input.cpp",
+					"workingDirectory" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dlitongjava_android_paddle_ocr_EXPORTS -ID:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\src\\main\\cpp\\..\\..\\..\\PaddleLite\\cxx\\include -isystem D:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\OpenCV\\sdk\\native\\jni\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -frtti -fexceptions -Wno-format -ffast-math -Ofast -Os -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/src/main/cpp/predictor_output.cpp",
+					"workingDirectory" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dlitongjava_android_paddle_ocr_EXPORTS -ID:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\src\\main\\cpp\\..\\..\\..\\PaddleLite\\cxx\\include -isystem D:\\code\\android\\android-ping\\AndroidPaddleOcrCppLibrary\\app\\OpenCV\\sdk\\native\\jni\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -frtti -fexceptions -Wno-format -ffast-math -Ofast -Os -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/src/main/cpp/preprocess.cpp",
+					"workingDirectory" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/build/intermediates/cmake/debug/obj/arm64-v8a/liblitongjava-android-paddle-ocr.so",
+			"toolchain" : "1172920601"
+		},
+		"opencv_calib3d-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_calib3d",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/staticlibs/arm64-v8a/libopencv_calib3d.a",
+			"toolchain" : "1172920601"
+		},
+		"opencv_core-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_core",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/staticlibs/arm64-v8a/libopencv_core.a",
+			"toolchain" : "1172920601"
+		},
+		"opencv_dnn-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_dnn",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/staticlibs/arm64-v8a/libopencv_dnn.a",
+			"toolchain" : "1172920601"
+		},
+		"opencv_features2d-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_features2d",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/staticlibs/arm64-v8a/libopencv_features2d.a",
+			"toolchain" : "1172920601"
+		},
+		"opencv_flann-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_flann",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/staticlibs/arm64-v8a/libopencv_flann.a",
+			"toolchain" : "1172920601"
+		},
+		"opencv_highgui-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_highgui",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/staticlibs/arm64-v8a/libopencv_highgui.a",
+			"toolchain" : "1172920601"
+		},
+		"opencv_imgcodecs-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_imgcodecs",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a",
+			"toolchain" : "1172920601"
+		},
+		"opencv_imgproc-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_imgproc",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a",
+			"toolchain" : "1172920601"
+		},
+		"opencv_java-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_java",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/libs/arm64-v8a/libopencv_java4.so",
+			"toolchain" : "1172920601"
+		},
+		"opencv_ml-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_ml",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/staticlibs/arm64-v8a/libopencv_ml.a",
+			"toolchain" : "1172920601"
+		},
+		"opencv_objdetect-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_objdetect",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/staticlibs/arm64-v8a/libopencv_objdetect.a",
+			"toolchain" : "1172920601"
+		},
+		"opencv_photo-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_photo",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/staticlibs/arm64-v8a/libopencv_photo.a",
+			"toolchain" : "1172920601"
+		},
+		"opencv_stitching-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_stitching",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/staticlibs/arm64-v8a/libopencv_stitching.a",
+			"toolchain" : "1172920601"
+		},
+		"opencv_video-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_video",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/staticlibs/arm64-v8a/libopencv_video.a",
+			"toolchain" : "1172920601"
+		},
+		"opencv_videoio-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_videoio",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/staticlibs/arm64-v8a/libopencv_videoio.a",
+			"toolchain" : "1172920601"
+		},
+		"paddle_light_api_shared-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "paddle_light_api_shared",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/src/main/cpp/../../../PaddleLite/cxx/libs/arm64-v8a/libpaddle_light_api_shared.so",
+			"toolchain" : "1172920601"
+		},
+		"quirc-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "quirc",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/3rdparty/libs/arm64-v8a/libquirc.a",
+			"toolchain" : "1172920601"
+		},
+		"tbb-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "tbb",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/3rdparty/libs/arm64-v8a/libtbb.a",
+			"toolchain" : "1172920601"
+		},
+		"tegra_hal-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "tegra_hal",
+			"buildType" : "debug",
+			"output" : "D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/OpenCV/sdk/native/3rdparty/libs/arm64-v8a/libtegra_hal.a",
+			"toolchain" : "1172920601"
+		}
+	},
+	"toolchains" : 
+	{
+		"1172920601" : 
+		{
+			"cCompilerExecutable" : "D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Android/android-sdk-windows/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

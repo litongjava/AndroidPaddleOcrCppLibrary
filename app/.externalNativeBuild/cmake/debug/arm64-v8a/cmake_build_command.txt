@@ -1,0 +1,18 @@
+Executable : D:\Android\android-sdk-windows\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HD:\code\android\android-ping\AndroidPaddleOcrCppLibrary\app\src\main\cpp
+-BD:\code\android\android-ping\AndroidPaddleOcrCppLibrary\app\.externalNativeBuild\cmake\debug\arm64-v8a
+-DANDROID_ABI=arm64-v8a
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\code\android\android-ping\AndroidPaddleOcrCppLibrary\app\build\intermediates\cmake\debug\obj\arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=D:\Android\android-sdk-windows\ndk\21.4.7075529
+-DCMAKE_CXX_FLAGS= -std=c++11 -frtti -fexceptions -Wno-format
+-DCMAKE_TOOLCHAIN_FILE=D:\Android\android-sdk-windows\ndk\21.4.7075529\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\Android\android-sdk-windows\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+-DANDROID_PLATFORM=android-23
+-DANDROID_STL=c++_shared
+-DANDROID_ARM_NEON=TRUE
+jvmArgs : 
+

@@ -1,0 +1,3 @@
+D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/litongjava-android-paddle-ocr.dir
+D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/code/android/android-ping/AndroidPaddleOcrCppLibrary/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
